@@ -238,6 +238,26 @@ schemes:
       cyan:    '#0db9d7'
       white:   '#acb0d0'
 
+############################################
+#########    DARK PLUS    ##################
+############################################
+
+# Colors (Dark plus)
+schemes:
+  darkplus: &darkplus
+    primary:
+      background: '0x1E1E1E'
+      foreground: '0xD4D4D4'
+    normal:
+      black:   '0x1E1E1E'
+      red:     '0xF44747'
+      green:   '0x608B4E'
+      yellow:  '0xD7BA7D'
+      blue:    '0x569CD6'
+      magenta: '0xC586C0'
+      cyan:    '0x9CDCFE'
+      white:   '0xD4D4D4'
+
 #####################################################################
 # SET THEME: Choose ONE color schemes from those in above list ######
 #####################################################################
@@ -247,8 +267,9 @@ schemes:
 # *dracula
 # *tokyo-night
 # *tokyo-night-storm
+# *darkplus
 
-colors: *tokyo-night
+colors: *darkplus
 
 #####################################################################
 #    END OF COLORSCHEMS       #######################################
@@ -274,7 +295,7 @@ font:
   # Point size
   # default sze: 12.5
   # i3 size: 9
-  size: 9
+  size: 7.5
 
   offset:
    x: 0
@@ -296,3 +317,4 @@ cursor:
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
     blinking: Off
+
